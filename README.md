@@ -1,4 +1,6 @@
-"This commit includes the initial project setup with the following features:
-- Folder structure creation
-- Installation of required dependencies (express)
-- Configuration files (e.g., package.json, .gitignore, etc.)" 
+This commit introduces the following changes:
+- Design static data for matches and teams
+- Create match and team models to define their structure
+- Implement GET API logic in the match controller to retrieve match data
+- Implement GET API logic in the team controller to retrieve team data
+- Add routes for matches and teams to handle API requests
