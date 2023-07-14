@@ -1,6 +1,5 @@
 const teamController = require('../controllers/teamController');
 const { teams } = require('../utils/data');
-const Team = require('../models/team');
 
 describe('Team Controller', () => {
   describe('getAllTeams', () => {

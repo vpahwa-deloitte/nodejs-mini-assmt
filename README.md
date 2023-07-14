@@ -1,7 +1,18 @@
-This commit introduces the following changes:
-- Implement POST method in the match and team controller to create new matches and teams
-- Implement PATCH method in the match and team controllers to update match and team data
-- Implement DELETE methods in the match and team controllers to delete matches and teams
-- Add logic in the leaderboard controller to calculate top scorers and wicket takers
-- Update routes for matches and teams to handle the new methods
-- Add leaderboard route to retrieve leaderboard data
+## Endpoints
+**Matches**
+- GET /matches - Retrieve all matches
+- GET /matches/:id - Retrieve a specific match by ID
+- GET /matches/:year/:month/:day - Retrieve a specific match by date
+- POST /matches - Create a new match
+- PATCH /matches/:id - Update a match by ID
+- DELETE /matches/:id - Delete a match by ID
+
+**Teams**
+- GET /teams - Retrieve all teams
+- GET /teams/:id - Retrieve a specific team by ID
+- POST /teams - Create a new team
+- PATCH /teams/:id - Update a team by ID
+- DELETE /teams/:id - Delete a team by ID
+
+**Leaderboard**
+- GET /leaderboard - Retrieve the leaderboard (matchesWon, topScorers, topWickerTakers)
