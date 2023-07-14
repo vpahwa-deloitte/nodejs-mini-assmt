@@ -1,6 +1,7 @@
 This commit introduces the following changes:
-- Design static data for matches and teams
-- Create match and team models to define their structure
-- Implement GET API logic in the match controller to retrieve match data
-- Implement GET API logic in the team controller to retrieve team data
-- Add routes for matches and teams to handle API requests
+- Implement POST method in the match controller to create new matches
+- Implement PATCH method in the match and team controllers to update match and team data
+- Implement DELETE methods in the match and team controllers to delete matches and teams
+- Add logic in the leaderboard controller to calculate top scorers and wicket takers
+- Update routes for matches and teams to handle the new methods
+- Add leaderboard route to retrieve leaderboard data
